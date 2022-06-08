@@ -6,9 +6,8 @@
 
     /* Custom properties */
     
-    --bg-color: /* darkgreen */ #000;
-    --background: #BCC6CC /* #B0B9BF */
-    /* #C5D3D9  darkgray */;
+    --bg-color: #000;
+    --background: #BCC6CC ;
     --pg-header-color: #fff;
     --btn-bg-color: navy;
     --font-family: 'Merriweather', serif;;
@@ -20,7 +19,7 @@
 }
 
 body {
-    min-height: 100vh;
+    overflow-x:hidden;
     display: flex;
     flex-direction: column;
     font-family: var(--font-family);
