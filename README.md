@@ -1,4 +1,4 @@
-## portifolio
+## Portifolio
 
 ## Description
 
@@ -12,4 +12,4 @@ As it is,this was an academic task to implement knowledge learnt on HTML and CSS
 
 ## Acknowledgement
 
-This was possible courtesy of @thezuriteam and @ingressive4good for giving me an oppoertunity to enrol in the full stack developer track.
+This was possible courtesy of @thezuriteam and @ingressive4good for giving me an opportunity to enroll in the full stack developer track.
