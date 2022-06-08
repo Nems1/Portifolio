@@ -1,0 +1,68 @@
+
+.header-items {
+    padding: 0;
+    margin: 0;
+} 
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin: 0 auto;
+}
+
+/* Remove this part */
+
+/* End of remove */
+
+.main-items h1 {
+    padding-block-end: 4.265rem;
+    text-align: center;
+} 
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-item label {
+    padding-inline-end: 1.25rem;
+}
+
+.form-item {
+    text-align: end ;
+}
+
+.input-item {
+    width: 30rem;
+    padding-block: .6125rem;
+    margin-block-end: 1rem;
+    border-radius: .4rem ;
+}
+
+.sign-up-lbl {
+    text-align: center;
+}
+.span-sign-up {
+    color: green;
+}
+
+/* Mobile setting */
+
+@media all and (max-width: 63.5rem){  
+ 
+    .form-item label {
+    padding-inline-end: .625rem;  
+}
+
+.input-item {
+    color: tomato;
+    width: 25rem;
+    padding-block: .6125rem;
+    margin-block-end: 1rem;
+    border-radius: .4rem ;
+}
+}

@@ -1,0 +1,38 @@
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-items h1 {
+    
+    text-align: center;
+    padding-block-end: 4.625rem;
+}
+
+.span-reg {
+    
+    color: darkgreen;
+    font-size: small;
+}  
+
+.form-item {
+    text-align: end ;
+}
+
+/* Mobile settings */
+
+@media all and (max-width: 63.5rem){
+   
+
+}    
