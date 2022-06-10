@@ -136,7 +136,7 @@
 /*Form elments settings ends here */
 
 .btn:hover {
-    transform: scale(1);
+    transform: scale(2) 2ms ease-in;
     background: purple;
 }
 
@@ -246,6 +246,7 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
+        padding-inline: .7625rem;
         padding-block-start: 3.2rem;
      }
      .left-main {
@@ -257,7 +258,7 @@
         max-inline-size: 100%;
         block-size: auto;
         object-fit: contain;
-        padding: .2rem;
+        padding-inline: .5rem;
         border-radius: 35rem;   
     }
        
@@ -290,8 +291,9 @@
     .right-main-desc-sm p,
     .hobbies-sm li,
     .skills-sm li{
-        
-        font-size: var(--font-size);
+        /*
+        font-size: var(--font-size); */
+        font-size: calc(var(--font-size) - 0.125rem);
     }
 
 
@@ -325,9 +327,29 @@
         margin-block: .1rem;
         border-radius: .4rem ;
     }
+   .span-cv a {
+    padding-inline: .125rem;
+    margin: 0;
+    font-size: calc(var(--font-size) - 0rem);
+   }
+    .bottom-desc ul>li {
+        margin: 0rem;
+        padding-inline: -2rem;
+    }
     
+    .right-main-contact-sm .btn {
+        margin: 0rem;
+        padding-inline: 1rem;
+    }
+
     .btn-sm {
+        width: 100%;
+        height: 3.625rem;
         margin-inline: -2.6125rem;
         padding-inline: .025rem;
+    }
+    .footer {
+        width: 100%;
+        margin: 0 auto;
     }
 }
