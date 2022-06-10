@@ -328,7 +328,7 @@
         border-radius: .4rem ;
     }
    .span-cv a {
-    padding-inline: .125rem;
+    padding-inline: .1rem;
     margin: 0;
     font-size: calc(var(--font-size) - 0rem);
    }
