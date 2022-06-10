@@ -10,7 +10,7 @@ It lay foundation to build on when adding dynamic functionalities as part of con
 
 As it is,this was an academic task to implement knowledge learnt on HTML and CSS only. Additional features and functional will sparingly affect the structural framework laid.
 
-It is website is still under improvement and it is 75% responsive.
+The website is still under improvement and it is 75% responsive.
 
 # Acknowledgement
 
