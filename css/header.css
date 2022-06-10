@@ -106,7 +106,7 @@ a.item::visited {
 
 /* Mobile version */
 
-@media screen and (max-width: 63.75rem) {
+@media screen and (min-width: 25rem) and (max-width: 43.6875rem) {
     .pg-header-sm {
         width: 100vw;
         height: 12rem;
@@ -125,7 +125,7 @@ a.item::visited {
     .nav-wrapper li {
         display: inline-flex;
         list-style: none;
-        font-size: var(--font-size);
+        font-size: calc(var(--font-size) - 0.2rem);
     }
     .header-items-sm {
         justify-content: space-evenly;

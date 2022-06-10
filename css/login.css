@@ -1,10 +1,5 @@
-
-.header-items {
-    padding: 0;
-    margin: 0;
-} 
-
 .container{
+    padding-block-start: 1.2rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -12,10 +7,6 @@
     align-items: center;  
     margin: 0 auto;
 }
-
-/* Remove this part */
-
-/* End of remove */
 
 .main-items h1 {
     padding-block-end: 4.265rem;
@@ -25,7 +16,7 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .form-item label {
@@ -34,13 +25,6 @@
 
 .form-item {
     text-align: end ;
-}
-
-.input-item {
-    width: 30rem;
-    padding-block: .6125rem;
-    margin-block-end: 1rem;
-    border-radius: .4rem ;
 }
 
 .sign-up-lbl {
@@ -52,17 +36,13 @@
 
 /* Mobile setting */
 
-@media all and (max-width: 63.5rem){  
- 
-    .form-item label {
-    padding-inline-end: .625rem;  
-}
+@media all and  (min-width: 25rem) and (max-width: 43.6875rem){  
 
-.input-item {
-    color: tomato;
-    width: 25rem;
-    padding-block: .6125rem;
-    margin-block-end: 1rem;
-    border-radius: .4rem ;
-}
+    .main-items h1 {
+        padding-block-end: 2.625rem;
+    }
+    .form-item label {
+        vertical-align: left;
+        text-align: left;
+    }
 }

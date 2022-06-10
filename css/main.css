@@ -142,16 +142,17 @@
 
 /* Mobile version */
 
-@media screen and (max-width: 63.75rem) {
+@media screen and (min-width: 25rem) and (max-width: 43.6875rem) {
     
     .logo .item {
         font-size: var(--font-size-sm);
     }
     .container {
+        margin: 0 auto;
         width: 100vw;
         display: flex;
         flex-direction: column;
-        padding-block-start: 1rem;
+        padding-block-start: .2rem;
      }
      .left-main {
         padding: .785rem;
@@ -213,19 +214,25 @@
     
     /* Form elements settings */
 
+   
+    .form-item {
+        text-align: start ;
+    }
+
     .form-item label {
-        padding-inline-end: .625rem;  
+        padding-inline-end: .6725rem;
+          
     }
 
     .input-item {
-        width: 25rem;
-        padding-block: .6125rem;
+        width: 16.825rem;
+        padding-block: .3125rem;
         margin-block-end: 1rem;
         border-radius: .4rem ;
     }
     
     .btn-sm {
-        margin-inline: -1.6125rem;
-        padding-inline: .25rem;
+        margin-inline: -2.6125rem;
+        padding-inline: .025rem;
     }
 }

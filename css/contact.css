@@ -4,6 +4,7 @@
     margin: 0;
 }
 .container{
+    padding-block-start: 1.2rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,7 @@
 }
 h3 {
     padding-block-end: 4.625rem;
+    
 }
 
 textarea {
@@ -36,12 +38,30 @@ textarea {
     margin-block-end: 4.725em;
 }
 
-@media all and (max-width: 63.5rem) {
-    
+@media all and (min-width: 25rem) and (max-width: 43.6875rem) {
+  
+    .contact-form {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 2rem;
+
+    }
+
+    .main-items h1 {
+        font-size: calc(var(--font-size) - .125rem);
+    }
+
+    h3 {
+        font-size: calc(var(--font-size) + .04125rem);
+        padding-block-end: 2.625rem;
+     }
+
     textarea {
-        width: 25rem;
-        height: 6.625rem;
+        width: 16.825rem;
+        height: 4.625rem;
         border-radius: .4rem;
     }
-  
+    
 }

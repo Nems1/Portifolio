@@ -1,5 +1,5 @@
-
 .container{
+    padding-block-start: 1.2rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,10 @@
 
 /* Mobile settings */
 
-@media all and (max-width: 63.5rem){
-   
+@media screen  and (min-width: 25rem) and (max-width: 43.6875rem){
+
+    .main-items h1 {
+        padding-block-end: 2.625rem;
+    }
 
 }    
