@@ -41,8 +41,17 @@
     .main-items h1 {
         padding-block-end: 2.625rem;
     }
+
     .form-item label {
         vertical-align: left;
         text-align: left;
+    }
+}
+
+/* Smallest Mobile settings */
+
+@media screen and (min-width: 6.25rem) and (max-width: 24.9375rem) {
+    .main-items h1 {
+        padding-block-end: 2rem;
     }
 }

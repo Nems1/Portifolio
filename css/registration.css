@@ -14,15 +14,19 @@
     justify-content: center;
 }
 
+
 .main-items h1 {
     
     text-align: center;
-    padding-block-end: 4.625rem;
+    padding-block-end: 0rem;
+}
+
+.main-items h3 {
+    padding-block-end: 2rem;
 }
 
 .span-reg {
     
-    color: darkgreen;
     font-size: small;
 }  
 
@@ -34,8 +38,25 @@
 
 @media screen  and (min-width: 25rem) and (max-width: 43.6875rem){
 
+    .main-items {
+        justify-content: center;
+    }
+    
     .main-items h1 {
-        padding-block-end: 2.625rem;
+        padding-block-end: 0rem;
+    }
+
+    .span-reg {
+         text-align: center;
+        padding-block-end: .625rem;
     }
 
 }    
+
+@media screen and (min-width: 6.25rem) and (max-width: 24.9375rem) {
+    
+    .main-items h3 {
+        text-align: center;
+       padding-block-end: 2rem;
+   }
+}
