@@ -4,13 +4,13 @@
 
 Simple Personal portifolio build using Vanilla CSS and HTML only.
 
-It lay foundation to build on when adding dynamic functionalities as part of continous improvement.
+It lays a foundation to build on when adding dynamic functionalities as part of continuous learning and practice.
 
 # Limitations
 
-As it is,this was an academic task to implement knowledge learnt on HTML and CSS only. Additional features and functional will sparingly affect the structural framework laid.
+As it is,this is an academic task meant to demonstrate application of HTML and CSS knowledge covered so far. Additional features and functional will sparingly affect the structural framework laid.
 
-The website is still under improvement and it is 75% responsive.
+The website is still under improvement and it is 95% responsive.
 
 # Acknowledgement
 
