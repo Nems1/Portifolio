@@ -30,6 +30,10 @@
 .sign-up-lbl {
     text-align: center;
 }
+.sign-up-lbl a {
+    text-decoration: none;
+    font-style: italic;
+}
 .span-sign-up {
     color: green;
 }

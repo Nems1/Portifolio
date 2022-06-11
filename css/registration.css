@@ -28,7 +28,20 @@
 .span-reg {
     
     font-size: small;
-}  
+}
+
+.sign-in-lbl {
+    text-align: center;
+}
+.sign-in-lbl a {
+    text-decoration: none;
+    font-style: italic;
+}
+.span-sign-in {
+    
+    color: green;
+}
+
 
 .form-item {
     text-align: end ;
