@@ -47,12 +47,6 @@ h1 {
     float: right;
 }
 
-/* Remove thos part */
-
-/* End of remove */
-
-/* Mobile settings */
-
 @media all and (max-width: 63.75rem) {
     
    .container {
