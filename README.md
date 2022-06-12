@@ -18,4 +18,4 @@ This was possible courtesy of @thezuriteam and @ingressive4good for giving me an
 
 # Live website
 
-[Visit the live website on](https://nems1.github.io/Portifolio/login/login.html). 
+Visit the live website [here](https://nems1.github.io/Portifolio/index.html). 
